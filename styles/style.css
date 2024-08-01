@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-banner {
+    background-image: url("images/shape2.png");
+    background-size: 100px;
+    background-image: no-repeat;
+}
+
+
+.btn-box {
+   margin-top: 25px;
+}
+
+.btn-colorful {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.half-width img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.purple-heading {
+    color: #FF6B6B;
+    font-size: 28px;
+    font-weight: 900;
+
+}
+
+.highlight {
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
